@@ -3,8 +3,13 @@
     padding: 0px;
 }
 
+html{
+    background: linear-gradient(#4db1d1,#7bc5e0);
+}
+
 body{
     font-family: 'Open Sans', sans-serif;
+
 }
 
 .container{
@@ -16,7 +21,6 @@ body{
 /* Header */
 
 header{
-
     background: linear-gradient(#4db1d1,#7bc5e0);
 }
 
@@ -90,14 +94,26 @@ nav a:hover{
 main{
     background-color: #fff;
     position: relative;
-    margin-top: 200px;
+    margin-top: 100px;
     z-index: 1;
 }
 
 .colorrow{
     background: linear-gradient(-70deg,#4db1d1 50%, #67c5e7 50%);
     padding: 20px 0px;
-    margin-bottom: 40px;
+    margin-bottom: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+}
+
+.colorrowMain{
+    background: linear-gradient(-70deg,#4db1d1 50%, #67c5e7 50%);
+    padding: 20px 0px;
+    margin-bottom: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -114,4 +130,55 @@ main{
 
 .pijl:hover{
     color: #000;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.info{
+    font-size: 20px;
+}
+
+section img{
+    width: 900px;
+    height: auto;
+    margin-bottom: 50px;
+}
+
+.locatie{
+    display: flex;
+    flex-direction: row;
+}
+
+.locatie img{
+    width: 700px;
+    height: auto;
+    margin-right: 20px;
+}
+
+/* Footer */
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #000;
+}
+
+.colorrowFooter{
+    background: linear-gradient(-70deg,#4db1d1 50%, #67c5e7 50%);
+    padding: 20px 0px;
+    margin-bottom: 40px;
+    width: auto;
+    height: 250px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+}
+
+footer h3{
+    border-bottom: #000 2px solid;
 }
